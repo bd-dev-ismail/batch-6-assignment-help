@@ -1,0 +1,33 @@
+
+{ 
+  "statusCode": "0000", 
+  "statusMessage": "Successful", 
+  "paymentID": "TR0011MN1677953316355", 
+  "bkashURL": "https://sandbox.payment.bkash.com/redirect/tokenized/?paymentID=TR0011MN1677953316355&hash=Adyh(MfcZz8_0XRZgR)LumPT5X7y!W.gcprnh9dC.D4nkYsi1w4mKssdBwrzUKmIzf0psWyg78FDH-wOpJWatdh8A3-kvfybUW1e1677953316496&mode=0011&apiVersion=v1.2.0-beta", 
+  "callbackURL": "https://ticketvalle.com/wc-api/bkash_payment_process?orderId=718&invoiceID=bfw_6403892435ba6_718", 
+  "successCallbackURL": "https://ticketvalle.com/wc-api/bkash_payment_process?orderId=718&invoiceID=bfw_6403892435ba6_718&paymentID=TR0011MN1677953316355&status=success", 
+  "failureCallbackURL": "https://ticketvalle.com/wc-api/bkash_payment_process?orderId=718&invoiceID=bfw_6403892435ba6_718&paymentID=TR0011MN1677953316355&status=failure", 
+  "cancelledCallbackURL": "https://ticketvalle.com/wc-api/bkash_payment_process?orderId=718&invoiceID=bfw_6403892435ba6_718&paymentID=TR0011MN1677953316355&status=cancel", 
+  "amount": "30.00", 
+  "intent": "sale", 
+  "currency": "BDT", 
+  "paymentCreateTime": "2023-03-05T00:08:36:496 GMT+0600", 
+  "transactionStatus": "Initiated", 
+  "merchantInvoiceNumber": "bfw_6403892435ba6_718"
+}
+
+
+{ 
+  "statusCode": "2023", 
+  "statusMessage": "Insufficient Balance", 
+  "paymentID": "TR0011MN1677953316355", 
+  "payerReference": "bKash_6403892435ba5_0", 
+  "customerMsisdn": "01770618575", 
+  "trxID": "6H7801QFYM", 
+  "amount": "15", 
+  "transactionStatus": "Initiated", 
+  "paymentExecuteTime": "2023-03-05T00:08:36:496 GMT+0600", 
+  "currency": "BDT", 
+  "intent": "sale", 
+  "merchantInvoiceNumber": "bfw_6403892435ba6_718" 
+}
